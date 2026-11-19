@@ -25,7 +25,7 @@ class LanMdnsProtocolTest {
         assertTrue(bytes[2].toInt() and 0x80 != 0) // response
         assertTrue(bytes[2].toInt() and 0x04 != 0) // authoritative
         assertArrayEquals(byteArrayOf(0, 1), bytes.copyOfRange(6, 8))
-        assertArrayEquals(byteArrayOf(192.toByte(), 168.toByte(), 1, 87), bytes.takeLast(4).toByteArray())
+        assertArrayEquals(byteArrayOf(192.toByte(), 168.toByte(), 1, 10), bytes.takeLast(4).toByteArray())
     }
 
     @Test
