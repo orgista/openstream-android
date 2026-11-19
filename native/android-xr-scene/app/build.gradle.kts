@@ -42,7 +42,7 @@ dependencies {
     val sceneCoreVersion = "1.0.0-beta01"
 
     implementation("androidx.activity:activity-ktx:1.13.0")
-    implementation("androidx.core:core-ktx:1.19.0")
+    implementation("androidx.core:core-ktx:1.19.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.11.0")
     implementation("androidx.media3:media3-exoplayer:$media3Version")
     implementation("androidx.xr.scenecore:scenecore:$sceneCoreVersion")

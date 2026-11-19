@@ -119,13 +119,13 @@ dependencies {
     // compatibility.
     val media3Version = "1.10.1"
 
-    implementation(platform("androidx.compose:compose-bom:2026.06.01"))
+    implementation(platform("androidx.compose:compose-bom:2026.09.00"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.foundation:foundation")
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.material:material-icons-core")
     implementation("androidx.activity:activity-compose:1.13.0")
-    implementation("androidx.core:core-ktx:1.19.0")
+    implementation("androidx.core:core-ktx:1.19.1")
 
     implementation("androidx.media3:media3-exoplayer:$media3Version")
     implementation("androidx.media3:media3-exoplayer-dash:$media3Version")
@@ -138,7 +138,7 @@ dependencies {
     // decode codecs the hardware can't — TrueHD, DTS, E-AC3, FLAC, etc. — on
     // device in real time. This is Infuse's model: direct play with a
     // software-decode fallback, not server-style re-encoding.
-    implementation("io.github.anilbeesetti:nextlib-media3ext:1.10.1-0.13.0")
+    implementation("io.github.anilbeesetti:nextlib-media3ext:1.11.1-0.18.0")
 
     // Pure-Java SMB2/3 client for direct NAS access; no gateway required.
     implementation("eu.agno3.jcifs:jcifs-ng:2.1.10")
